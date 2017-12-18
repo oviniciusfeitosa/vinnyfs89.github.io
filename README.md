@@ -1,3 +1,8 @@
+sudo apt-get install ruby-dev
+sudo apt-get install libxslt-dev libxml2-dev
+sudo bundle install
+bundle config build.nokogiri --use-system-libraries
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/vinnyfs89/vinnyfs89.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
